@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tipos primitivos</title>
+</head>
+
+<body>
+
+    <script>
+        var desafio = confirm('Você aceita o desafio?')
+        if (desafio) {
+            var nome
+            var idade
+            do {
+                nome = prompt('Nome:')
+                idade = prompt('Idade:')
+            } while (typeof nome != string)
+            alert('Nome: ' + nome + '\nIdade: ' + idade)
+        } else {
+            alert('Você é fraco')
+        }
+
+    </script>
+
+</body>
+
+</html>
